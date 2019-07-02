@@ -1,0 +1,287 @@
+body{
+    margin:0;
+    background-color: #fff;
+}
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row{
+    margin-top:15px;
+    padding: 50px;
+}
+
+.BannerImg{
+    min-width: 100%;
+    height : 500px;
+}
+.HospitalName{
+    z-index: 0;
+    position: absolute;
+    left : 12%;
+    top : 7%;
+}
+.BannerDesc{
+    position: absolute;
+    left : 12%;
+    top : 27%;
+    max-width: 550px;
+    padding: 15px;
+    padding-left: 0;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.BannerDesc > h2{
+    margin: 0;
+    line-height: 35px;
+}
+.BannerDesc > p{
+    font-size: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.BannerBtn{
+    color: #fff;
+    padding : 15px;
+    background-color: #dd5a6a;
+    border : 0;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.SubmitBtn{
+    color: #fff;
+    background-color: #dd5a6a;
+    border : 0;
+    font-weight: bold;
+    margin-top: 10px;
+    padding : 10 45 10 45;
+    cursor: pointer;
+}
+.BannerForm{
+    background-color: #fff;
+    position: absolute;
+    left : 65%;
+    top : 4%;
+    width: 320px;
+    height : 420px;
+    padding: 15px;
+    padding-top: 0;
+}
+.BannerForm > h2{
+    color: #213558;
+}
+
+.BannerForm input,textarea{
+    padding: 15px;
+    width : 280px;
+    border: 1px solid #d0d0d0;
+    color: #293d5e;
+    margin-bottom: 10px;
+}
+.Captcha{
+    padding: 15px;
+    width : 280px;
+    border: 1px solid #d0d0d0;
+    color: #293d5e;
+    margin-bottom: 10px;
+}
+.Captcha input{
+    display: inline;
+    width:auto;
+    cursor: pointer;
+}
+.Captcha img{
+    float: right;
+}
+
+.CardOne{
+    color: #fff; 
+    font-weight: bold;
+    padding: 15px;
+    margin-left:75px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, #3caec6,#5c7be7);
+    font-size:24px;
+}
+.CardTwo{
+    color: #293d5e; 
+    padding: 20px;
+    margin-left:75px;
+    margin-bottom: 15px;
+    border-bottom:1px solid #d0d0d0;
+    background-color: #fff;
+    font-size:24px;
+}
+
+.Title{
+    font-weight: bold;
+    font-size:36px;
+    color: #22b78f;
+    text-align: left;
+}
+.SubTitle{
+    font-weight: bold;
+    font-size:24px;
+    color: #22b78f;
+    text-align: center;
+}
+.Name{
+    font-weight: bold;
+    font-size:24px;
+    color: #1c5aa5;
+    text-align: center;
+    margin: 0;
+}
+.Qualification{
+    font-size:18px;
+    color: #2a63aa;
+    text-align: center;
+    margin: 0;
+}
+.Desc{
+    font-size:18px;
+    font-size:24px;
+    color: #293d5e;
+    padding: 15px;
+    text-align: justify
+}
+.DoctorsCard{
+    background-color: #faf9ff;
+    width: 100%;
+}
+.DoctorProfile{
+    position: relative;
+    left:22%;
+}
+.DoctorsBtn{
+    padding: 15px;
+    position: relative;
+    left:37%;
+    background-image: linear-gradient(to right, #3caec6,#5c7be7);
+    color: #fff;
+    border:0;
+    margin:15px;
+}
+ul{
+    list-style-image: url('./assets/hospital (2).png');
+}
+
+#secondul{
+    list-style-image: url('./assets/double-tick-indicator.png');
+}
+ul li{
+    color : #293d5e;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.WarningsCard{
+    margin:25px;
+    padding: 15px;
+    border: 1px solid #e5eafe;
+    color : #293d5e;
+    height:100px;
+}
+.ExpandCard{
+    color: #1c5aa5;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 25px;
+    border-bottom:2px solid  #e9ecff;
+}
+.Testimonials{
+	margin:25px;
+    padding: 15px;
+    border: 1px solid #e5eafe;
+    color : #293d5e;
+}
+.BookBtn{
+    background-color: #1c5aa5;
+    padding: 15px;
+    color : #fff;
+    border:0;
+    margin-left:42%;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #272727;
+    height:250px;
+    margin-bottom: 10px;
+    color: #fdfdfd;
+}
+.images{
+    padding-top: 75px;
+    margin-left:42%;
+}
+
+@media only screen and (max-width: 425px) {
+    .BannerImg{
+        width:100%;
+        height: 400px;
+    }
+    .HospitalName{
+        width : 50px;
+        height: 35px;
+    }
+    [class*="col-"]{
+        width : 100%;
+    }
+    .BannerForm{
+        position: relative;
+        width: 100%;
+    }
+    .BannerDesc{
+        width : 100%;
+        position: absolute;
+        left : 12%;
+        top : 12%;
+    }
+    .BannerDesc > h2{
+        margin: 0;
+        line-height: 20px;
+    }
+    .BannerDesc > p{
+        font-size: 27px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .BannerBtn{
+        color: #fff;
+        padding : 15px;
+        background-color: #dd5a6a;
+        border : 0;
+        font-weight: bold;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .SubmitBtn{
+        color: #fff;
+        background-color: #dd5a6a;
+        border : 0;
+        font-weight: bold;
+        margin-top: 10px;
+        padding : 10 45 10 45;
+        cursor: pointer;
+    }
+    .CardOne{
+        width: 100%;
+        margin:0;
+        border: 0;
+    }
+}
